@@ -1,0 +1,134 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+#contenedor-principal{
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor{
+    color: white;
+    background-color: rgb(181, 80, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 35%;
+
+}
+#input{
+    
+    background-color: rgb(226, 96, 96);
+    border: none;
+    border-left: 4px solid white;
+    border-radius: 2px;
+    margin: 0%;    
+}
+
+#input[type=number]::-webkit-inner-spin-button, 
+#input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.boton{
+    border:none;
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+#button-left{
+    background-color: white;
+    color: grey;
+}
+#button-right{
+    background-color: rgba(231, 38, 38, 0.539);
+}
+#button-left:hover{
+    background-color: rgba(231, 38, 38, 0.539);
+    color: black;
+    transition: .5s;
+}
+#button-right:hover{
+    background-color: white;
+    color: grey;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+.button_nav{
+    border: none;
+    background-color: rgba(231, 38, 38, 0.539);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.button_nav:hover{
+    background-color: rgb(179, 47, 47);
+    transition: 1s;
+}
+
+#inputName{
+    background-color: rgb(226, 96, 96);
+    border: none;
+    border-left: 4px solid white;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+}
+#inputYear{
+    background-color: rgb(226, 96, 96);
+    border: none;
+    border-left: 4px solid white;
+    border-radius: 2px;
+    margin: 0%;    
+}
+.inputNameYear{
+    display: flex;
+}
+#inputYear[type=number]::-webkit-inner-spin-button, 
+#inputYear[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+@media (max-width:739px) {
+    #contenedor{
+        width: 50%;
+    }
+    #principal_text{
+        font-size: 10px;
+    }
+    
+}
+
+
+@media (max-width:530px){
+    #contenedor{
+        width: 75%;
+    }
+
+    .button_nav{
+        height: 20px;
+        width: 60px;
+        font-size: 9px;
+    }
+    #button_3{
+        font-size: 9px;
+        height: 20px;
+        width:80px ;
+    }
+}
+@media(max-width:702px){
+    #principal_text{
+        font-size: 20px;
+    }
+}
